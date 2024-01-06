@@ -1,0 +1,482 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3e6e6;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav{ 
+    color: white;
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+    
+}
+
+
+
+.logo img{
+   width: 140px;
+   height: 50px;
+   background-color: #131921;
+   color: white;
+
+}
+
+
+.logo img:hover{
+    border: 1px solid rgb(230, 218, 218);
+
+    
+}
+
+
+.location-btn{
+    padding: 10px;
+    width: 200px;
+}
+
+
+.nav-btn{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.nav-btn button{
+    padding: 10px;
+}
+
+.nav-btn input{
+    width: 500px;
+    border: none;
+    outline: none;
+}
+
+.nav-btn .icon-search{
+    padding: 12px;
+    background-color: #febd69;
+    color: black;
+}
+
+
+.country{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.country:hover{
+    border: 1px solid white;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.country img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.ac-li{
+    font-size: 13px;
+    width: 100px;
+}
+
+
+
+.location-ac .hidden{
+    display: none;
+    
+}
+
+
+.location-ac:hover .hidden{
+    display: block;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: -20vh;
+    height: 500px;
+    background-color: rgb(250, 244, 244);
+}
+
+
+.hidden div > .location-hidden-inner{
+    text-align: center;
+}
+
+
+.your-ac{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+
+}
+
+
+.Account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+
+.Account > h5{
+    color: rgb(33, 48, 46);
+    text-align: justify;
+    text-overflow: ellipsis;
+    width: 90%;
+    margin-bottom: -4px;
+    padding-left: 10px;
+   
+}
+
+.account-inner{
+    text-align: left;
+    width: 300px;
+    padding-left: 6px;
+}
+
+.account-inner h2{
+    text-align: center;
+}
+
+.account-inner h5:nth-child(2){
+    margin-top: 20px;
+    
+}
+
+
+.ac-li button{
+    
+    background-color: #ffdd33;
+    margin-left: 100px;
+}
+
+.location-hidden-inner{
+    color: black;
+}
+
+.ac-li:hover{
+    
+    border: 1px solid white;
+    /* margin: 10px; */
+    height: 50px;
+    z-index: 999;
+    padding: 0 10px;
+}
+
+
+.ac-li h4{
+    margin-top: -15px;
+}
+
+
+.location-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    
+    
+}
+
+
+.location div:hover{
+    border: 1px solid rgb(230, 218, 218);
+    /* margin: 10px; */
+    padding: 0 8px;
+    height: 50px;
+  
+}
+
+
+.location h4{
+    margin-top: -15px;
+    
+}
+
+.Returns{
+    font-size: 13px;
+}
+
+.Returns:hover{
+    padding: 0 10px;
+}
+
+.Returns p:nth-child(2){
+    margin-top: -15px;
+    
+}
+
+
+.cart i{
+    font-size: 30px;
+    
+}
+
+
+.nav-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #232f3e;
+    color: white;
+    padding: -10px;
+
+} 
+
+
+
+.nav-bottom-left{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 14px;
+   margin-top: -6px;
+   margin-bottom: ;
+}
+
+.nav-bottom-left p:hover{
+    border: 1px solid white;
+    padding: 7px;
+   
+}
+
+.nav-bottom img{
+    height: 30px;
+}
+
+.nav-bottom img:hover{
+    border: 1px solid white;
+    
+}
+
+
+
+/* section part */
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/GW/BVD/May/Deals-Unrec-PC-3000._CB588530729_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+
+
+.main-sec{
+    display: flex;
+    gap: 10px;
+    /* margin-top: 50px; */
+    padding-top: 18%;
+}
+
+.sec-main-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec-main-img a{
+    color: #1e8293;
+    text-decoration: none;
+    font-size: 13px;
+}
+.sec-main-img img{
+
+width: 120px;
+height: 120px;
+border-radius: 5px;
+
+}
+
+.sec-main-img div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.section-main-inner{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.section-main-inner h3{
+    color: black;
+}
+
+.section-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    
+}
+
+.section-right div:nth-child(1){
+    width: 300px;
+    height: 130px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    /* border-radius: 5px; */
+}
+
+.section-right h3{
+    width: 200px;
+    padding-left: 20px;
+}
+
+.section-right-button{
+    width: 250px;
+    background-color: #ffdd33;
+    padding: 10px;
+    margin: 0 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-right img{
+    width: 270px;
+    height: 260px;
+    margin: 0 10px 0 20px;
+}
+
+
+.container{
+    display: flex;
+    gap: 10px;
+    margin-top: px;
+}
+
+
+
+
+.section-bottom{
+    /* display: flex;
+    flex-direction: column;  */
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid rgb(235, 14, 14); */
+    background-color: #ffffff;
+    margin-right: 10px;
+    
+}
+
+.section-bottom-inner{
+    padding: 0 10px;
+}
+
+.section-inner-main{
+    display: flex;
+    gap: 20px;
+    padding: ;
+    
+}
+
+
+.section-bottom .deal{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.sec-bottom-inner{   
+    display: flex;
+    padding: 10px;
+    
+}
+
+
+
+.sec-bottom-inner{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.sec-bottom-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 225px;
+    padding: 0 6px;
+
+
+}
+
+/* .sec-inner-main span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+.section-bottom span{
+    font-size: 39px;
+}
+
+
+.sec-bottom-inner p:nth-child(1){
+    background-color: #c01515;
+}
+
+.sec-bottom-inner p:nth-child(2){
+    overflow: hidden;
+    font-size: 12px
+}
+
+
+.sec-bottom h5{
+    white-space: nowrap;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -10px;
+}
+
+.offers div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.offers-img div{
+    display: flex;
+    justify-content: space-between;
+}
